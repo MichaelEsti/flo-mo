@@ -179,6 +179,10 @@ justify-content: center;
 margin-bottom: 5%;
 }
 
+.check {
+    color: #E5E5E5;
+}
+
 .proj-contain {
     margin: 8% 0;
 }
