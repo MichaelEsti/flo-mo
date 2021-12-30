@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F9F9F9;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background: #F9F9F9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 750px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 6%;
+    padding-left: 6%;
+    background: #F9F9F9;
+}
+
+.logo {
+    color: #474747;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav ul a {
+    color: #474747;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+nav ul li:after {
+    content:'';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #474747;;
+    margin: auto;
+    transition: .4s;
+}
+
+nav ul li:hover:after {
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+}
+
+.content h2 {
+    font-size: 66px;
+    color: #474747;
+    line-height: 68px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+}
+
+.main-text {
+    position: absolute;
+    top: 56%;
+    left: 70%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+.main-text h1 {
+    font-family: 'Merienda', cursive;
+    font-size: 150px;
+    background: url(img/foam-1.jpeg);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    border-radius: 0;
+    display: none;
+  }
+  
+.dropdown-menu li {
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    color: #474747;
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+ .sectionContainer {
+     display: flex;
+     justify-content: center;
+     margin-top: 10%;
+ }
+
+ .sectionHead h3{
+     font-size: 3rem;
+     font-weight: 500;
+     color: #474747;
+     letter-spacing: 8px;
+ }
+
+.shadow {
+    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
+}
+
+.space {
+    margin-right: 8px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-50 {
+    width: 50%;
+}
+
+/* Work Section */
+
+.head-sep {
+width: 100%;
+height: 168px;
+background: #474747;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 62px;
+line-height: 93px;
+/* identical to box height */
+letter-spacing: 0.02em;
+color: #E5E5E5;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+margin-bottom: 5%;
+}
+
+.proj-contain {
+    margin: 8% 0;
+}
+
+.proj-image {
+    align-items: center;
+}
+
+.studio-image {
+    background: url(img/studio-mockup.png);
+    background-size: cover;
+    width: 512px;
+    height: 504px;
+}
+
+.proj-content {
+    justify-content: center;
+    margin-right: 7%;
+}
+
+.studio {
+    font-family: Arial;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 55px;
+letter-spacing: 0.02em;
+
+color: #474747;
+margin-bottom: 2.5%;
+}
+
+p {
+    font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 147.49%;
+/* or 41px */
+
+letter-spacing: 0.02em;
+
+color: #474747;
+padding: 2.5% 0;
+}
+
+.studio-link {
+align-self: flex-end;
+    font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 147.49%;
+text-decoration: none;
+/* or 41px */
+
+letter-spacing: 0.02em;
+
+color: #474747;
+margin: 2.5% 5%;
+}
+
+.space-left {
+    margin-left: 10px;
+}
+
+.proj-content-left {
+    justify-content: center;
+    margin-left: 7%;
+}
+
+.plant-image {
+    background: url(img/Plant-mockup-leaf.png);
+    background-size: cover;
+    background-position: center;
+    width: 406px;
+    height: 611px;
+}
+
+.finder-image {
+    background: url(img/wayfiner_mockup.png);
+    background-size: cover;
+    background-position: center;
+    width: 284px;
+    height: 524px;  
+}
+
+.plant {
+    font-family: 'Balsamiq Sans', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    
+    color: #474747;
+    margin-bottom: 2.5%;
+}
+
+.finder {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.02em;
+    
+    color: #474747;
+    margin-bottom: 2.5%;
+}
+
+.studio-link:after {
+    content:'';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #474747;;
+    margin: auto;
+    transition: .4s;
+}
+
+.studio-link:hover:after {
+    width: 100%;
+}
+
+
+
+
+
+/* End work section */
+
