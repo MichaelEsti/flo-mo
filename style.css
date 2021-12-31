@@ -29,7 +29,7 @@ h3 {
     top: 0px;
     bottom: 50%;
     
-    border: 3px dashed #1ABCFE;
+    border: 1.5px dashed #1ABCFE;
     transform: rotate(90deg);
 }
 
@@ -40,7 +40,7 @@ h3 {
     left: 0px;
     top: 56.8%;
     
-    border: 3px dashed #1ABCFE;
+    border: 1.5px dashed #1ABCFE;
 }
 
 .sub-title {
