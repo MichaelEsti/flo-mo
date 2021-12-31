@@ -167,35 +167,6 @@ nav ul li:hover:after {
     text-align: right;
 }
 
-.main-text h1 {
-    font-family: 'Merienda', cursive;
-    font-size: 150px;
-    background: url(img/foam-1.jpeg);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.dropdown-menu {
-    position: absolute;
-    top: 50px;
-    border-radius: 0;
-    display: none;
-  }
-  
-.dropdown-menu li {
-    display: block;
-    margin: auto;
-    padding: 10px 10px;
-    color: #474747;
-    z-index: 100;
-  }
-
-  .dropdown {
-    display: inline-block;
-    position: relative;
-    z-index: 100;
-  }
-
  .sectionContainer {
      display: flex;
      justify-content: center;
