@@ -34,6 +34,7 @@ nav {
     padding-right: 6%;
     padding-left: 6%;
     background: #F9F9F9;
+    z-index: 100;
 }
 
 .logo {
@@ -114,11 +115,13 @@ nav ul li:hover:after {
     margin: auto;
     padding: 10px 10px;
     color: #474747;
+    z-index: 100;
   }
 
   .dropdown {
     display: inline-block;
     position: relative;
+    z-index: 100;
   }
 
  .sectionContainer {
@@ -192,10 +195,10 @@ margin-bottom: 5%;
 }
 
 .studio-image {
-    background: url(img/studio-mockup.png);
+    background: url(img/Studio_Cover.png);
     background-size: cover;
-    width: 512px;
-    height: 504px;
+    width: 559px;
+    height: 569px;
 }
 
 .proj-content {
@@ -261,10 +264,10 @@ margin: 2.5% 5%;
 }
 
 .finder-image {
-    background: url(img/wayfiner_mockup.png);
+    background: url(img/Wayfinder_cover.png);
     background-size: cover;
     background-position: center;
-    width: 284px;
+    width: 611px;
     height: 524px;  
 }
 
