@@ -369,3 +369,31 @@ background: url(img/Hero_bimage.png);
 background-size: cover;
 background-position: center;
 }
+
+/* About Section Start */
+.mar-top {
+    margin-top: 5%;
+}
+
+.me-image {
+    background: url(img/IMG_3086.jpeg);
+    width: 543px;
+height: 420px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.sub-head {
+    font-weight: 500;
+font-size: 42px;
+line-height: 55px;
+letter-spacing: 0.02em;
+
+color: #474747;
+margin-bottom: 2.5%;
+}
+
+
+/* About Section End */
+
