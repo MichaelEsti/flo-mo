@@ -1,0 +1,19 @@
+body {
+  
+}
+
+.caseimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -500px;
+    margin-top: -500px;
+    scale: .66;
+}
+
+@media only screen and (max-width: 780px) {
+    .caseimage {
+      max-width: 600px;
+      
+    }
+  }

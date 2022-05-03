@@ -71,3 +71,10 @@ margin-bottom: 30px;
 color: #4C6301;
 
 }
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
